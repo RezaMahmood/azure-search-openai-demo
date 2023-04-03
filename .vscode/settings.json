@@ -18,5 +18,11 @@
     "search.exclude": {
         "**/node_modules": true,
         "static": true
-    }
+    },
+    "azureFunctions.projectSubpath": "app/backend/dotnet",
+    "azureFunctions.deploySubpath": "app/backend/dotnet/bin/Release/net6.0/publish",
+    "azureFunctions.projectLanguage": "C#",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "publish (functions)"
 }

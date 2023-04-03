@@ -1,6 +1,8 @@
 {
-    "recommendations": [
-        "esbenp.prettier-vscode",
-        "ms-azuretools.azure-dev"
-    ]
+  "recommendations": [
+    "ms-azuretools.vscode-azurefunctions",
+    "ms-dotnettools.csharp",
+    "esbenp.prettier-vscode",
+    "ms-azuretools.azure-dev"
+  ]
 }
